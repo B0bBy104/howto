@@ -7,4 +7,24 @@
 #32324A
 #55557D
 #C5C5C9
-*\
+*/
+
+button {
+  color: black;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 12px 26px;
+  transition-duration: 0.3s;
+}
+
+.button1 {
+  background-color: #ffffff;
+}
+
+.button1:hover {
+  background-color: gray;
+  color: white;
+}
