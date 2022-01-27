@@ -11,7 +11,7 @@ body, html {
 }
 
 .hero-image {
-  background-image: url(https://github.com/B0bBy104/howto/blob/main/resources/images/valley_shader.png);
+  background-image: url("https://github.com/B0bBy104/howto/blob/main/resources/images/valley_shader.png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,3 +27,8 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
   }
+
+p {
+  background-image: url("https://github.com/B0bBy104/howto/blob/main/resources/images/valley_shader.png");
+  color: white;
+}
