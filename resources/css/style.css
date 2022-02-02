@@ -4,11 +4,18 @@
 #55557D
 #C5C5C9
 */
+
+* {
+  box-sizing: border-box;
+}
+
 body, html {
   background-color: #262626;
+  margin: 0;
 }
 
 .hero_image {
+  
   position: relative;
   text-align: center;
   width: 100%;
