@@ -9,20 +9,24 @@
   box-sizing: border-box;
 }
 
-body, html {
+body{
   background-color: #262626;
   margin: 0;
 }
 
-.hero_image {
-  
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/valley_shader.png");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  text-align: center;
-  width: 100%;
+  color: white;
   float: none;
 }
 
-.hero_text {
+#hero_text {
   position: absolute;
   text-align: center;
   top: 50%;
