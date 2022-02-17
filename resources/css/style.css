@@ -15,14 +15,10 @@ body{
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/valley_shader.png");
-  background-color: #cccccc;
-  height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  color: white;
   float: none;
 }
 
@@ -32,8 +28,17 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  }
-
-p {
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: hue;
+  padding: 100px;
+  border-radius: 75px;
+}
+  /*p {
+  color: white;
+}
+*/
+img {
+  width: 100%;
+  filter: brightness(85%);
 }
