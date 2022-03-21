@@ -10,7 +10,7 @@
 }
 
 body{
-  background-color: #262626;
+  background-color: #0D0D0D;
   margin: 0;
 }
 
@@ -41,4 +41,11 @@ body{
 img {
   width: 100%;
   filter: brightness(85%);
+}
+
+
+
+.maintext {
+  color: #99ADBF;
+
 }
